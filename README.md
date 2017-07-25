@@ -6,19 +6,29 @@ Read the post to follow along here.
 
 To get the app up and running you will need to have an Auth0 account. You can sign up for one [here](https://auth0.com/signup?utm_source=scotch.io&utm_medium=sp&utm_campaign=api_authorization).
 
-There are two clients and one api.
+## Quickstart
+how to run api
+```
+git clone https://github.com/shinji-sakai/building-api.git your_app
+cd your_app
+cd movie-analyst-api
+npm install
+node server
+```
 
-1)  go to the "movie-analyst-api" folder.
-  $ npm install
-  $ node server
+**Note: There are two clients.**
+1. movieanalyst-admin
+```
+cd movieanalyst-admin
+npm install
+npm start
+```
+2. movieanalyst-website
+```
+cd movieanalyst-website
+npm install
+npm start
+```
 
-2) go to the "movieanalyst-website" folder.
-  $ npm install
-  $ npm start
 
-  localhost: 3000//
-
-or go to the "movieanalyst-admin" folder.
-  $ npm install
-  $ npm start
 
