@@ -9,10 +9,16 @@ To get the app up and running you will need to have an Auth0 account. You can si
 There are two clients and one api.
 
 1)  go to the "movie-analyst-api" folder.
-# npm install
-# node server
+  $ npm install
+  $ node server
 
 2) go to the "movieanalyst-website" folder.
-# npm install
-# npm start
+  $ npm install
+  $ npm start
+
+  localhost: 3000//
+
+or go to the "movieanalyst-admin" folder.
+  $ npm install
+  $ npm start
 
